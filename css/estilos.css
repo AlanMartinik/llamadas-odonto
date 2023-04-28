@@ -1,0 +1,55 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Open Sans', sans-serif;}
+
+
+    #click2call a:hover {
+        opacity: 0.5;
+    }
+    #click2call_callbtn img {
+        height: 200px;
+    }
+    #click2call_hupbtn img {
+        height: 150px;
+    }
+    #click2call_msgdiv {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+    }
+    .logo img{
+        width: 20rem;
+    }
+    .titulo{
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
+        padding-left: 20rem;
+        padding-right: 20rem;
+
+    }
+
+    @media all and (max-width: 768px){
+        .telefono img{
+            width: 20rem;
+        }
+
+        .logo img{
+            width: 15rem;
+        }
+        .titulo{
+            margin-bottom: 2rem;
+            padding-left: 5rem;
+            padding-right: 5rem;    
+        }
+        .titulo h2{
+            font-size: 1rem;
+        }
+
+    }
